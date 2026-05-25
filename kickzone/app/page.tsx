@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="min-h-screen text-white relative">
 
-      {/* Fundo */}
+      
       <div className="absolute inset-0 bg-[url('/imagens/imagemdahome.jpg')] bg-cover bg-center" />
 
       {/* Overlay escuro (pra leitura ficar boa) */}
@@ -39,6 +39,32 @@ export default function Home() {
         </section>
 
       </div>
+      <section className="relative z-10 bg-zinc-950 px-8 py-20">
+
+        <h3 className="text-3xl font-bold text-center mb-12">
+          Produtos em destaque
+        </h3>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          <div className="bg-zinc-900 rounded-2xl p-4">
+            <img src=""/>
+
+
+            <h4 className="mt-4 text-xl font-semibold">
+              Nike Mercurial
+            </h4>
+
+            <p className="text-zinc-400 mt-2">
+              Velocidade e controle para jogadores ofensivos.
+            </p>
+
+            <button className="mt-4 bg-green-500 text-black px-4 py-2 rounded-full font-semibold">
+              Ver produtos
+            </button>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
