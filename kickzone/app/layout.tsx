@@ -1,20 +1,18 @@
 import "./globals.css";
 
-
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en">
-        <body>
-      className={` {antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en">
+      <body className="antialiased"
+      >
+
+        <h1>Página Home</h1>
+        {children}
+      </body>
     </html>
   );
 }
