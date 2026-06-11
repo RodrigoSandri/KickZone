@@ -2,16 +2,13 @@ export default function Home() {
   return (
     <main className="min-h-screen text-white relative">
 
-      {/* Background */}
       <div className="absolute inset-0 bg-[url('/imagens/imagemdahome.jpg')] bg-cover bg-center" />
 
-      {/* Overlay */}
       <div className="absolute inset-0 bg-black/60" />
 
-      {/* Conteúdo */}
       <div className="relative z-10">
 
-        {/* Header */}
+        
         <header className="flex items-center justify-between px-8 py-6 border-b border-zinc-800">
           <h1 className="text-2xl font-bold text-green-500">
             Sítio Seven
@@ -24,7 +21,6 @@ export default function Home() {
           </nav>
         </header>
 
-        {/* Hero */}
         <section className="flex flex-col items-center justify-center text-center px-6 py-32">
           <h2 className="text-5xl font-bold max-w-3xl leading-tight">
             Encontre a chuteira perfeita para o seu jogo
@@ -43,7 +39,7 @@ export default function Home() {
 
       </div>
 
-      {/* Produtos */}
+    
       <section className="relative z-10 bg-zinc-950 px-8 py-20">
 
         <h3 className="text-3xl font-bold text-center mb-12">
@@ -71,7 +67,7 @@ export default function Home() {
 
           </div>
 
-          {/* Card 2 */}
+        
           <div className="bg-zinc-900 rounded-2xl p-4">
 
             <div className="h-48 bg-zinc-800 rounded-xl"></div>
@@ -90,7 +86,7 @@ export default function Home() {
 
           </div>
 
-          {/* Card 3 */}
+          
           <div className="bg-zinc-900 rounded-2xl p-4">
 
             <div className="h-48 bg-zinc-800 rounded-xl"></div>
